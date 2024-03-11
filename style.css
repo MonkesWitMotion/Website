@@ -1,18 +1,25 @@
+html, body {
+  overflow-x: hidden;
+}
+
 body {
+    position: relative;
     background-color: black;
     margin-bottom: 30px;
     margin-top: 20px;
+    max-width: 100%;
 }
 
 .motion__header {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 100%;
   }
 
   .motion__alert {
-    width: 400%; 
-    max-width: 800px; 
+    width: 360%; 
+    max-width: 700px; 
     display: block; 
     margin-top: 5px; 
     image-rendering: pixelated;
@@ -22,9 +29,10 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 100%;
   }
   .motion__image {
-    width: 900%; 
+    width: 360%; 
     max-width: 700px; 
     display: block; 
     margin-top: 5px; 
@@ -32,18 +40,33 @@ body {
   }
 
 .text {
-    color: white;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  max-width: 100%;
+  float: center;
+  font-size: 170%;
+  word-wrap: break-word;
+}
+
+.text2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  max-width: 100%;
+  float: center;
+  word-wrap: break-word;
 }
 
 a {
     color: #41b4ff;
     display: flex;
     justify-content: center;
-    width: 100%;
-    font-size:30px;
+    max-width: 100%;
+    font-size: 150%;
+    word-wrap: break-word;
 }
 
 .space {
@@ -54,7 +77,8 @@ h1 {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size:50px;
+    max-width: 100%;
+    font-size:260%;
     margin-top: 0px;
     margin-bottom: 40px;
     text-align: center;
