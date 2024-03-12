@@ -123,9 +123,20 @@ h1 {
   }
 
   .big__space {
-    padding: 60px;
+    padding: 15px;
 }
 
   .motion__catalog img{
     width: 20%;
+  }
+
+  .twitter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+  }
+  .twitterimg {
+    width:100%;
+    min-width:30px;
   }
