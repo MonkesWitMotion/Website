@@ -60,6 +60,23 @@ body {
   word-wrap: break-word;
 }
 
+.text3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  max-width: 100%;
+  float: center;
+  font-size: 170%;
+  word-wrap: break-word;
+  text-shadow: -0px 2px black,
+                 -0px 4px #7e57c2,
+                 -0px 6px #2196f3,
+                 -0px 8px #26c6da,
+                 -0px 10px #eeff41,
+                 -0px 12px #ff5722;
+}
+
 a {
     color: #41b4ff;
     display: flex;
@@ -99,4 +116,16 @@ h1 {
   
   a {
     margin-bottom: 45px;
+  }
+
+  .big {
+    width: 20%;
+  }
+
+  .big__space {
+    padding: 60px;
+}
+
+  .motion__catalog img{
+    width: 20%;
   }
