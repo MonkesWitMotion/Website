@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    position: relative;
+    position: center;
     background-color: black;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -129,6 +129,16 @@ h1 {
   .motion__catalog img{
     width: 20%;
   }
+  .motion__catalog  {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .motion__catalog img {
+      margin: 5px; /* Adjusts the space between images */
+    }
+
 
   .twitter {
     display: block;
@@ -139,5 +149,4 @@ h1 {
   .twitterimg {
     width:100%;
     min-width:30px;
-    max-width: 80px;
   }
